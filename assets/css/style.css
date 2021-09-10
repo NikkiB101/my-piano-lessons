@@ -11,8 +11,8 @@ body {
     height: 800px;
     background-image: 
     linear-gradient(to right bottom, 
-   rgba(76, 216, 255, 0.6),
-   rgba(32, 68, 117, 0.6)),
+   rgba(76, 216, 255, 0.8),
+   rgba(32, 68, 117, 0.8)),
    url('../images/online-piano-lessons.jpg');
     
   background-size: cover;
@@ -51,7 +51,7 @@ body {
      margin-top: 30px;
  }
 
- li a{
+ #menu li a{
     display:block;
     color: #fff;
     text-align: center;
@@ -61,7 +61,7 @@ body {
     font-weight: 600;    
  }
 
- li a:hover {
+ #menu a:hover {
     color: #111;
  }
 
@@ -157,7 +157,7 @@ body {
 /*Lesson Types */
 
 #lesson-types {
-    height: 800px;
+    height: 400px;
     width: 100%;
     margin: 0 auto;
     background-image: 
@@ -203,4 +203,39 @@ body {
     width: 20%;
     margin: 0 auto; 
     color: white;
+}
+
+.lesson-type-button {
+        background-color: red;
+        border: none;
+        color: white;
+        padding: 20px 150px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 12px;
+        margin-top: 20px;
+        font-weight: bolder;
+      }
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+    list-style-type: none;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: rgb(150, 206, 238);
 }

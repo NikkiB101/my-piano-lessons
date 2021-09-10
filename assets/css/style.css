@@ -20,7 +20,7 @@ body {
     position: relative;
 }
 
-/* Junior Music Header Section Background */
+/* Junior Piano Header Section Background */
 
 .header {
     height: 800px;
@@ -29,6 +29,21 @@ body {
    rgba(76, 216, 255, 0.8),
    rgba(32, 68, 117, 0.8)),
    url('../images/little-girl-taking-online-piano-lessons.jpg');
+    
+  background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+/* Teen Piano Header Section Background */
+
+.header {
+    height: 800px;
+    background-image: 
+    linear-gradient(to right bottom, 
+   rgba(76, 216, 255, 0.8),
+   rgba(32, 68, 117, 0.8)),
+   url('../images/teenage-girl-playing-piano-practising.jpg');
     
   background-size: cover;
     background-position: top;

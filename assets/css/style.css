@@ -1,9 +1,8 @@
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.7;
-    color: #eee;
 }
 
 /* Header Section Background */
@@ -141,7 +140,7 @@ body {
     padding-right: 20%;
 }
 
-h2 {
+#welcome h2 {
     text-align: center;
     color: rgb(150, 206, 238);
     letter-spacing: 5px; 
@@ -149,7 +148,7 @@ h2 {
     padding-bottom: 2%;
 }
 
-p {
+#welcome p {
     color: black;
     text-align: justify;
     margin-top: 10px;
@@ -159,22 +158,49 @@ p {
 
 #lesson-types {
     height: 800px;
+    width: 100%;
+    margin: 0 auto;
+    background-image: 
+    linear-gradient(to right bottom, 
+   rgba(76, 216, 255, 0.8),
+   rgba(32, 68, 117, 0.8)),
+   url('../images/teen-playing-piano.JPG');
+    
+  background-size: cover;
+    background-position: top;
+    position: relative;
+    color: white;
 }
 
+#lesson-types h2{
+    color: white;
+    text-align: center;
+    letter-spacing: 5px; 
+}
+
+#lesson-types p {
+    padding-top: 30px;
+    text-align: justify;
+}
 #junior-piano {
-    padding-top: 10px;
-    width: 33%;
+    padding-top: 20px;
+    width: 20%;
     float: left;
+    margin-left: 10%;
+    color: white;
 }
 
 #adult-piano {
-    padding-top: 10px;
-    width: 33%;
+    padding-top: 20px;
+    width: 20%;
     float: right;
+    margin-right: 10%;
+    color: white;
 }
 
 #teen-piano {
-    padding-top: 10px;
-    width: 33%;
-    margin: 0 auto
+    padding-top: 20px;
+    width: 20%;
+    margin: 0 auto; 
+    color: white;
 }

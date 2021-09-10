@@ -1,13 +1,15 @@
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.7;
     color: #eee;
 }
 
+/* Header Section Background */
+
 .header {
-    height: 100vh;
+    height: 800px;
     background-image: 
     linear-gradient(to right bottom, 
    rgba(76, 216, 255, 0.6),
@@ -17,9 +19,9 @@ body {
   background-size: cover;
     background-position: top;
     position: relative;
-
-    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
+
+/* Logo */
 
 .logo-box {
     position: absolute;
@@ -34,6 +36,8 @@ body {
     color: #fff;
     text-transform: uppercase;
  }
+
+ /* Navigation Elements */
 
  #menu {
      color: #fff;
@@ -69,6 +73,8 @@ body {
      border-radius: 25px;
      width: 200px;
  }
+
+ /* Image Box on Header Image */
 
 .text-box {
     position: absolute;
@@ -125,4 +131,50 @@ body {
     background-color: #fff;
     color: #777;
   font-size: 18px;
+}
+
+/* Welcome Section */
+
+#welcome {
+    height: 400px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(150, 206, 238);
+    letter-spacing: 5px; 
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+p {
+    color: black;
+    text-align: justify;
+    margin-top: 10px;
+    line-height: 40px;
+}
+/*Lesson Types */
+
+#lesson-types {
+    height: 800px;
+}
+
+#junior-piano {
+    padding-top: 10px;
+    width: 33%;
+    float: left;
+}
+
+#adult-piano {
+    padding-top: 10px;
+    width: 33%;
+    float: right;
+}
+
+#teen-piano {
+    padding-top: 10px;
+    width: 33%;
+    margin: 0 auto
 }

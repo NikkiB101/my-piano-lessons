@@ -5,7 +5,7 @@ body {
     line-height: 1.7;
 }
 
-/* Header Section Background */
+/* Home Header Section Background */
 
 .header {
     height: 800px;
@@ -14,6 +14,21 @@ body {
    rgba(76, 216, 255, 0.8),
    rgba(32, 68, 117, 0.8)),
    url('../images/online-piano-lessons.jpg');
+    
+  background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+/* Junior Music Header Section Background */
+
+.header {
+    height: 800px;
+    background-image: 
+    linear-gradient(to right bottom, 
+   rgba(76, 216, 255, 0.8),
+   rgba(32, 68, 117, 0.8)),
+   url('../images/little-girl-taking-online-piano-lessons.jpg');
     
   background-size: cover;
     background-position: top;
@@ -93,16 +108,17 @@ body {
 
 .heading-primary-main {
     display: block;
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 400;
     letter-spacing: 5px;
 }
 
 .heading-primary-sub {
     display: block;
-    font-size: 18px;
+    font-size: 26px;
     font-weight: 700;
     letter-spacing: 7.4px;
+    color: red;
 }
 
 .btn:link,
@@ -287,11 +303,42 @@ body {
     
 }
 
-.exam-section
+.blue-section
 {
     width: 100%;
     background-color: rgb(150, 206, 238, 0.8);
 }
+
+/*Fee Table*/
+
+th{
+    width: 45%;
+    background-color: white;
+    text-align: center;
+    border: solid white 1px;
+}
+
+td{
+    width: 45%;
+    background-color: white;
+    text-align: center;
+    border: solid white 1px;
+}
+
+/*Book Now Button*/
+.booking-button {
+        background-color: red;
+        width: 100%;
+        border: none;
+        color: white;
+        padding: 20px 150px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 12px;
+        margin-top: 20px;
+        font-weight: bolder;
+      }
 
 /* footer */
 

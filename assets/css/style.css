@@ -9,43 +9,58 @@ body {
 
 .header {
     height: 800px;
-    background-image: 
-    linear-gradient(to right bottom, 
-   rgba(76, 216, 255, 0.8),
-   rgba(32, 68, 117, 0.8)),
-   url('../images/online-piano-lessons.jpg');
-    
-  background-size: cover;
+    background-image:
+        linear-gradient(to right bottom,
+            rgba(76, 216, 255, 0.8),
+            rgba(32, 68, 117, 0.8)),
+        url('../images/online-piano-lessons.jpg');
+
+    background-size: cover;
     background-position: top;
     position: relative;
 }
 
 /* Junior Piano Header Section Background */
 
-.header {
+.header-junior {
     height: 800px;
-    background-image: 
-    linear-gradient(to right bottom, 
-   rgba(76, 216, 255, 0.8),
-   rgba(32, 68, 117, 0.8)),
-   url('../images/little-girl-taking-online-piano-lessons.jpg');
-    
-  background-size: cover;
+    background-image:
+        linear-gradient(to right bottom,
+            rgba(76, 216, 255, 0.8),
+            rgba(32, 68, 117, 0.8)),
+        url('../images/little-girl-taking-online-piano-lessons.jpg');
+
+    background-size: cover;
     background-position: top;
     position: relative;
 }
 
 /* Teen Piano Header Section Background */
 
-.header {
+.header-teen {
     height: 800px;
-    background-image: 
-    linear-gradient(to right bottom, 
-   rgba(76, 216, 255, 0.8),
-   rgba(32, 68, 117, 0.8)),
-   url('../images/teenage-girl-playing-piano-practisinggit add.jpg');
-    
-  background-size: cover;
+    background-image:
+        linear-gradient(to right bottom,
+            rgba(76, 216, 255, 0.8),
+            rgba(32, 68, 117, 0.8)),
+        url('../images/teenage-girl-playing-piano-practisinggit add.jpg');
+
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+/* Contact Us Header Section Background */
+
+.header-contact {
+    height: 800px;
+    background-image:
+        linear-gradient(to right bottom,
+            rgba(76, 216, 255, 0.8),
+            rgba(32, 68, 117, 0.8)),
+        url('../images/send-email.jpg');
+
+    background-size: cover;
     background-position: top;
     position: relative;
 }
@@ -60,50 +75,50 @@ body {
 
 .logo {
     font-weight: 600;
-    letter-spacing: 5px; 
+    letter-spacing: 5px;
     font-size: 40px;
     color: #fff;
     text-transform: uppercase;
- }
+}
 
- /* Navigation Elements */
+/* Navigation Elements */
 
- #menu {
-     color: #fff;
-     font-size: 100%;
-     float: right;
- }
+#menu {
+    color: #fff;
+    font-size: 100%;
+    float: right;
+}
 
- #menu li{
-     list-style-type: none;
-     margin-right: 40px;
-     float: left;
-     margin-top: 30px;
- }
+#menu li {
+    list-style-type: none;
+    margin-right: 40px;
+    float: left;
+    margin-top: 30px;
+}
 
- #menu li a{
-    display:block;
+#menu li a {
+    display: block;
     color: #fff;
     text-align: center;
     margin-top: 14px 16px;
     text-decoration: none;
-    letter-spacing: 3px; 
-    font-weight: 600;    
- }
+    letter-spacing: 3px;
+    font-weight: 600;
+}
 
- #menu a:hover {
+#menu a:hover {
     color: #111;
- }
+}
 
- #book-now{
-     background-color: red;
-     color: white;
-     border: red solid;
-     border-radius: 25px;
-     width: 200px;
- }
+#book-now {
+    background-color: red;
+    color: white;
+    border: red solid;
+    border-radius: 25px;
+    width: 200px;
+}
 
- /* Image Box on Header Image */
+/* Image Box on Header Image */
 
 .text-box {
     position: absolute;
@@ -160,7 +175,7 @@ body {
 .btn-white {
     background-color: #fff;
     color: #777;
-  font-size: 18px;
+    font-size: 18px;
 }
 
 /* Welcome Section */
@@ -174,7 +189,7 @@ body {
 #welcome h2 {
     text-align: center;
     color: rgb(150, 206, 238);
-    letter-spacing: 5px; 
+    letter-spacing: 5px;
     padding-top: 2%;
     padding-bottom: 2%;
 }
@@ -197,38 +212,40 @@ body {
 .title h2 {
     text-align: center;
     color: rgb(150, 206, 238);
-    letter-spacing: 5px; 
+    letter-spacing: 5px;
     padding-top: 2%;
     padding-bottom: 2%;
 }
+
 /*Lesson Types */
 
 #lesson-types {
     height: 400px;
     width: 100%;
     margin: 0 auto;
-    background-image: 
-    linear-gradient(to right bottom, 
-   rgba(76, 216, 255, 0.8),
-   rgba(32, 68, 117, 0.8)),
-   url('../images/teen-playing-piano.JPG');
-    
-  background-size: cover;
+    background-image:
+        linear-gradient(to right bottom,
+            rgba(76, 216, 255, 0.8),
+            rgba(32, 68, 117, 0.8)),
+        url('../images/teen-playing-piano.JPG');
+
+    background-size: cover;
     background-position: top;
     position: relative;
     color: white;
 }
 
-#lesson-types h2{
+#lesson-types h2 {
     color: white;
     text-align: center;
-    letter-spacing: 5px; 
+    letter-spacing: 5px;
 }
 
 #lesson-types p {
     padding-top: 30px;
     text-align: justify;
 }
+
 #junior-piano {
     padding-top: 20px;
     width: 20%;
@@ -248,22 +265,22 @@ body {
 #teen-piano {
     padding-top: 20px;
     width: 20%;
-    margin: 0 auto; 
+    margin: 0 auto;
     color: white;
 }
 
 .lesson-type-button {
-        background-color: red;
-        border: none;
-        color: white;
-        padding: 20px 150px;
-        text-align: center;
-        text-decoration: none;
-        font-size: 16px;
-        border-radius: 12px;
-        margin-top: 20px;
-        font-weight: bolder;
-      }
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 20px 150px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
 
 /* Column 1 & 2 */
 
@@ -277,9 +294,9 @@ body {
     margin-top: 3%;
 }
 
-.column-section a{
+.column-section a {
     font-weight: bold;
-    color:  rgb(150, 206, 238);
+    color: rgb(150, 206, 238);
 }
 
 .column-left {
@@ -290,9 +307,9 @@ body {
     margin-left: 4%;
     color: black;
     height: 400px;
-  }
+}
 
-  .column-right {
+.column-right {
     padding-top: 30px;
     width: 42%;
     float: right;
@@ -300,13 +317,13 @@ body {
     margin-left: 4%;
     color: black;
     height: 400px;
-  }
+}
 
-  .column-section h3 {
-      text-align: center;
-  }
+.column-section h3 {
+    text-align: center;
+}
 
-  .column-section p {
+.column-section p {
     text-align: justify;
     margin-top: 4%;
     margin-top: 4%;
@@ -315,25 +332,24 @@ body {
 .column img {
     text-align: center;
     height: 600px;
-    
+
 }
 
-.blue-section
-{
+.blue-section {
     width: 100%;
     background-color: rgb(150, 206, 238, 0.8);
 }
 
 /*Fee Table*/
 
-th{
+th {
     width: 45%;
     background-color: white;
     text-align: center;
     border: solid white 1px;
 }
 
-td{
+td {
     width: 45%;
     background-color: white;
     text-align: center;
@@ -342,18 +358,86 @@ td{
 
 /*Book Now Button*/
 .booking-button {
-        background-color: red;
-        width: 100%;
-        border: none;
-        color: white;
-        padding: 20px 150px;
-        text-align: center;
-        text-decoration: none;
-        font-size: 16px;
-        border-radius: 12px;
-        margin-top: 20px;
-        font-weight: bolder;
-      }
+    background-color: red;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 20px 150px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+/*Contact Form*/
+
+#contact h2 {
+    text-align: center;
+    color: rgb(150, 206, 238);
+    letter-spacing: 5px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#contact p {
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 40px;
+}
+
+.contact-form {
+    max-width: 80%;
+    text-align: left;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+
+input[type=submit] {
+    background-color: rgb(150, 206, 238);
+    color: white;
+    padding: 12px 20px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+
 
 /* footer */
 

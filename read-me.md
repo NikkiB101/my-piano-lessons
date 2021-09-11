@@ -7,6 +7,8 @@ Reduce administration by collecting key information from clients online during t
 Encourage Users to book online by making the booking process easier.
 
 
+
+
 Site Users
 
 Children – Children who wish to enrol for piano lessons.
@@ -53,7 +55,7 @@ WC3 validation complete on all pages with no errors found.
 Light House Validation complete with minimum accesibilty score of 93.
 
 
-Help Received
+Credits
 I was able to meet with my tutor for one lesson.
 Love Running Project for footer and positioning
 Envato Elements for Images

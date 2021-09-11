@@ -37,7 +37,7 @@ body {
 
 /* Teen Piano Header Section Background */
 
-#header-teen {
+.header-teen {
     height: 800px;
     background-image:
         linear-gradient(to right bottom,
@@ -100,7 +100,6 @@ body {
     display: block;
     color: #fff;
     text-align: center;
-    margin-top: 14px 16px;
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: 600;
@@ -165,6 +164,7 @@ body {
 .btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: black;
 }
 
 .btn:active {
@@ -282,6 +282,19 @@ body {
     font-weight: bolder;
 }
 
+.lesson-type-button:hover {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 20px 150px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
 /* Column 1 & 2 */
 
 .column-section {
@@ -371,6 +384,19 @@ td {
     font-weight: bolder;
 }
 
+.booking-button:hover {
+    background-color: black;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 20px 150px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
 /*Contact Form*/
 
 #contact h2 {
@@ -437,8 +463,96 @@ input[type=submit]:hover {
     background-color: black;
 }
 
+/* media queries */
 
+@media screen and (max-width: 1200px) {
 
+   #menu {
+       padding-top: 10%;
+   }
+
+    #welcome {
+        height: auto;
+    }
+
+    #lesson-types {
+        height: auto;
+    }
+
+    .column-section {
+        height: auto;
+    }
+
+    .column-left {
+        width: 80%;
+        text-align: center;
+        padding: 2%;
+        margin: 0 auto;
+        float: none;
+        height: auto;
+    }
+
+    .column-right {
+        width: 80%;
+        text-align: center;
+        padding: 2%;
+        margin: 0 auto;
+        float: none;
+        height: auto;
+    }
+
+    #junior-piano {
+        width: 80%;
+        text-align: center;
+        padding: 2%;
+    }
+
+    #teen-piano {
+        width: 80%;
+        text-align: center;
+        padding: 2%;
+    }
+
+    #adult-piano {
+        width: 80%;
+        text-align: center;
+        padding: 2%;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    #menu {
+        padding-top: 10%;
+} 
+
+#lesson-types {
+    height: auto;
+    margin-bottom: 2%;
+}
+
+.column-section {
+    height: auto;
+}
+
+.column-left {
+    width: 60%;
+    text-align: center;
+    padding: 2%;
+    margin: 0 auto;
+    float: none;
+    height: auto;
+}
+
+.column-right {
+    width: 60%;
+    text-align: center;
+    padding: 2%;
+    margin: 0 auto;
+    float: none;
+    height: auto;
+}
+
+}
 /* footer */
 
 footer {

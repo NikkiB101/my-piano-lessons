@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -13,7 +14,6 @@
 </head>
 
 <body>
-    <header>
         <header class="header-contact">
             <div class="logo-box">
                 <span class="logo">My Piano Lessons</span>
@@ -52,9 +52,10 @@
         <!--Booking Form-->
         <section id="contact">
             <h2>Schedule Your Lessons</h2>
-            <p>Please fill out your details below and a memeber of our team will be in touch with you shortly to confirm your enrolment.</p>
+            <p>Please fill out your details below and a memeber of our team will be in touch with you shortly to confirm
+                your enrolment.</p>
             <div class="contact-form">
-                <form action="thank-you.html">
+                <form action="thank-you.html" method="GET">
 
                     <label for="fname">First Name</label>
                     <input type="text" id="fname" name="firstname" placeholder="Your name..." required>
@@ -69,13 +70,13 @@
                     <input type="text" id="phone" name="phone" placeholder="Your phone number..." required>
 
                     <label for="availability">Unavailable Times</label>
-                    <textarea id="subject" name="unavailable" placeholder="Please let us know when you are unavailable for lessons so we can schedule a time that suits you." required
-                        style="height:200px"></textarea>
+                    <textarea id="availability" name="unavailable"
+                        placeholder="Please let us know when you are unavailable for lessons so we can schedule a time that suits you."
+                        required style="height:200px"></textarea>
 
                     <input type="submit" value="Enrol Now">
 
                 </form>
-            </div>
             </div>
         </section>
 
